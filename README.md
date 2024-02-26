@@ -1,0 +1,5 @@
+# SAAS Box
+
+This is a fully Node.js and React app that runs three apps API as Node.js express and postgres app. Web App that is used as a SAAS starter app with signup, login, forgot password, SSO, and maybe SAML eventually for running mutiple user muti tenent (accounts) application. With most of the hard stuff solved like sending emails, rate limiting, backround tasks, logging, permissions, all handled for you. They are also all abstracted so you can replace them with anything you want. Last an admin app for managing the accounts, subscription management, and more. The idea is you should be able to deploy this anywhere with just a postgres DB, redis if you want, and a few pods and link up the email service of your choice and you are ready to start building what matters.
+
+## This is a stil la work in progress!
